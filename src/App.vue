@@ -1,12 +1,16 @@
 <template>
   <h1>Vuejs</h1>
+  <calculator-main />
 </template>
 
 <script>
 
+import CalculatorMain from "./main/CalculatorMain.vue"
+
 export default {
   name: 'App',
   components: {
+    CalculatorMain
   }
 }
 </script>
