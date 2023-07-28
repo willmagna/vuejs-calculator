@@ -1,19 +1,19 @@
 <template>
     <div class="calculator">
-        <display-calculator />
-        <button-calculator />
+        <display />
+        <button />
     </div>
 </template>
 
 <script>
 
-import DisplayCalculator from '../components/DisplayCalculator.vue';
-import ButtonCalculator from '../components/ButtonCalculator.vue';
+import Display from '../components/Display.vue';
+import Button from '../components/Button.vue';
 
 export default{
     components: {
-        DisplayCalculator,
-        ButtonCalculator
+        Display,
+        Button,
     }
 }
 </script>
