@@ -1,6 +1,6 @@
 <template>
   <h1>Vuejs</h1>
-  <calculator />
+  <Calculator />
 </template>
 
 <script>
